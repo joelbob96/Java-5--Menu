@@ -1,2 +1,0 @@
-Main-Class: Project5
-Sealed: true

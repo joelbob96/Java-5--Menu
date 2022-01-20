@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.io.IOException;
 import java.nio.file.*;
 
-public class Project5{
+public class Main{
 
 	public static void main(String[] args){
 	 
@@ -36,7 +36,7 @@ public class Project5{
 			//System.out.println(row);
 			//System.out.println("\n");
 		}
-		
+		input.close();
 		
 	}catch( IOException e ){
 			e.printStackTrace();
@@ -109,7 +109,7 @@ public class Project5{
 				
 				
 				default:
-				System.out.println("Commands: \n menu-View Menu \n q-Quit\n new-Create new ticket\n print-Print ticket\n total- Total ticket\n delete- Delete ticket");
+				System.out.println("Commands: \n menu-View Menu \n q-Quit\n new-Create new ticket\n add- Add item to the ticket\n print-Print ticket\n total- Total ticket\n delete- Delete ticket");
 				break;
 				
 			}
